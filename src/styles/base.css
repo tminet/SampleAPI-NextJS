@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --font-family: "Quicksand", sans-serif;
+  --backgroundColor: #f5f5f5;
+  --fontColor: #424242;
+  --linkColor: #424242be;
+  --simpleBoxBackgroundColor: #e7e7e7;
+}
+
+[data-theme="dark"] {
+  --backgroundColor: #242424;
+  --fontColor: #f2f2f2;
+  --linkColor: #f2f2f2cc;
+  --simpleBoxBackgroundColor: #353535;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+html,
+body {
+  background-color: var(--backgroundColor);
+  color: var(--fontColor);
+}
+
+a:link,
+a:visited {
+  color: var(--linkColor);
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+h1 {
+  padding: 5px 0 5px 0;
+}
+
+h2 {
+  padding: 3px 0 3px 0;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.simple-box {
+  display: block;
+  padding: 10px;
+  margin: 5px 0 5px 0;
+  border-radius: 10px;
+  background-color: var(--simpleBoxBackgroundColor);
+}

@@ -1,0 +1,35 @@
+{
+  "name": "sampleapi-nextjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tminet/SampleAPI-NextJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tminet/SampleAPI-NextJS/issues"
+  },
+  "homepage": "https://github.com/tminet/SampleAPI-NextJS#readme",
+  "dependencies": {
+    "mongoose": "^6.1.5",
+    "next": "^12.0.7",
+    "next-themes": "^0.0.15",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.38",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
+  }
+}
